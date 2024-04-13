@@ -1,0 +1,71 @@
+<!Doctype html>
+<html lang="en">
+<head>
+        <title>Thesis Management System</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Add or Remove THesis Tab">
+        <meta name="keywords" content ="Thesis, Add Thesis, Remove THhsis">
+        <meta name="author" content="Ian Arevalo">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!--<meta http-equiv="refresh" content="30"> //Automatic Refresh Page-->
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+      <div class="container">
+            <header>Add Thesis</header>
+            <hr>
+            <form action="index.php" method="post"> <!--Dito Issend ang inputs-->
+                <div class="form">
+                    <div class="details"> 
+                        <span class="title">INFORMATION FORM</span> <!--wrap sections of text for styling-->
+                        <div class="fields">
+
+                            <div class="input-field">
+                                <label>Thesis Title </label>
+                                <input type="text" placeholder="Enter Thesis Title" required id="thesis_Title" name="thesis_Title">
+                            </div>
+
+                            <div class="input-field">
+                                <label>Author Name: </label>
+                                <input type="text" placeholder="Enter Author Name" required id="author_Name" name="author_Name">
+                            </div>
+
+                            <div class="input-field">
+                                <label>Date Published </label>
+                                <input type="date" placeholder="Enter Date" required id="date_Published" name="date_Published">
+                            </div>
+                            
+                            <div class="input-field">
+                                <label>Department Name </label>
+                                <input type="text" placeholder="Enter Department Name" required id="department_Name" name="department_Name">
+                            </div>
+
+                            <div class="input-field">
+                                <label>Indicators </label>
+                                <input type="text" placeholder="'Computer', 'AI', 'Basta'" required id="indicators" name="indicators">
+                            </div>
+
+                            <div class="input-field">
+                                <label>Keywords </label>
+                                <input type="text" placeholder="'Computer', 'AI', 'Basta'" required id="keywords" name="keywords">
+                            </div>
+                        </div>
+
+                        <div class="abstractField">
+                            <div class="abstract-field">
+                                <label>Abstract </label>
+                                <textarea type="text" placeholder="" required id="abstract" name="abstract"></textarea>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+
+                <button type="submit" class="button">SUBMIT</button>
+            </form>
+        </div>
+
+
+  
+</body>
+</html>

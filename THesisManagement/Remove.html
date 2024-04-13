@@ -1,0 +1,51 @@
+<!Doctype html> <!-- Indicate which version of HTML the document is written [HTML 5] -->
+<html lang="en"> <!--  specifies the language of the document -->
+<head>
+        <title>Thesis Management System</title>       
+        <meta charset="UTF-8">
+        <meta name="description" content="Add or Remove THesis Tab">
+        <meta name="keywords" content ="Thesis, Add Thesis, Remove THhsis">
+        <meta name="author" content="Ian Arevalo">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Metadata is data about the HTML document itself —information about the document, 
+        such as its author, character and others -->
+
+        <!--<meta http-equiv="refresh" content="30"> //Automatic Refresh Page-->
+        <link rel="stylesheet" href="styleRemove.css"> 
+        <!-- Connect html to css for design-->
+
+</head>
+
+<body>
+    <div class="container">
+        <header> Remove Thesis</header>
+        <hr>
+            <form action="index.php" method="post">
+                <div class="form">
+                    <div class="details">
+                        <span class="title">Information Form</span>
+                        <div class="field">
+                            <div class="input-field">
+                                <label>Thesis Title</label>
+                                <input type="text" placeholder="Enter Thesis Title" required id="" name="">
+                            </div>
+
+                            <div class="input-field">
+                                <label>Author Name</label>
+                                <input type="text" placeholder="Enter Author Name" required id="" name="">
+                            </div>
+
+                            <div class="input-field">
+                                <label>Department</label>
+                                <input type="text" placeholder="Enter Department" required id="" name="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <button class="button" type="submit">SUBMIT</button>
+            </form>
+    </div>
+
+</body>
